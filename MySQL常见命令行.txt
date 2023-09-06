@@ -1,0 +1,12 @@
+
+show databases;			查看所有数据库
+use databasename;		使用数据库
+show tables;			查看数据库中的表
+create database databasename;	创建数据库
+create table tablename();	创建表
+drop database databasename;	删除数据库
+drop table tablename;		删除表
+desc tablename;			查看表结构
+show create table tablename;	查看创建时表结构
+select * from tablename;	查看表内容
+insert into tablename valuse();	表中添值
