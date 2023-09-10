@@ -20,3 +20,8 @@ drop database databasename;		删除数据库
 drop table tablename;			删除表
 
 insert into tablename values();		表中添值
+
+sourec URL				导入数据
+
+select distinct keyname from tablename;		查询去重数据
+
