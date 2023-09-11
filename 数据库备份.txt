@@ -1,0 +1,20 @@
+win+r	cmd	操作
+	
+备份指定数据库
+	mysqldump -h127.0.0.1 -uroot -p dbname>URL+filename.sql
+备份指定数据库中多个表
+	mysqldump -h127.0.0.1 -uroot -p dbname tablename1 tablename2 ... tablenamen>URL+filename.sql
+
+mysqldump --add-drop-table -uroot -p
+
+
+恢复数据库
+	mysql -uroot -p dbname<URL+filename.sql
+
+MySQL窗口
+
+导入数据库
+	source URL+filename.sql;		反斜杠
+
+改名
+	alter table oldtablename rename to nowtablename;
