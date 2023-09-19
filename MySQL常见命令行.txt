@@ -23,5 +23,6 @@ insert into tablename values();		表中添值
 
 sourec URL				导入数据
 
-select distinct keyname from tablename;		查询去重数据
+select distinct colname from tablename;		查询去重数据
 
+update tablename set 操作;		对列数据进行操作
