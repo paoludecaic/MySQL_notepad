@@ -1,0 +1,8 @@
+3.3.1单表查询
+	只涉及一个表
+
+1.若干列（投影）
+select * from tablename where colname;
+
+
+select distinct colname from tablename;

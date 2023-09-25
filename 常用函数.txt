@@ -1,0 +1,10 @@
+集函数
+avg		平均值
+count	记录数
+max		最大值
+min		最小值
+sun		求和
+
+日期函数
+year		
+now		系统日期

@@ -1,0 +1,28 @@
+
+quit/exit				退出数据库
+
+show databases;				查看所有数据库
+use databasename;			使用数据库
+show tables;				查看数据库中的表
+desc tablename;				查看表结构
+show create table tablename;		查看创建时表结构
+select * from tablename;		查看表内容
+
+show create database databasename;	查看数据库编码类型
+show create table tablename;		查看表编码类型
+show variables like 'character_%';	查看所有编码
+show variables like 'collation_%';	比较规则
+
+create database databasename;		创建数据库
+create table tablename();		创建表
+
+drop database databasename;		删除数据库
+drop table tablename;			删除表
+
+insert into tablename values();		表中添值
+
+sourec URL				导入数据
+
+select distinct colname from tablename;		查询去重数据
+
+update tablename set 操作;		对列数据进行操作
